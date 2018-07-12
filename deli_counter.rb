@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name|
     queue.push " #{queue.length + 1}. #{name}" 
 end
-puts "The line is currently: #{queue.join}"
+puts "The line is currently:#{queue.join}"
 end
 end
 
