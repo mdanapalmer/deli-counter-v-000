@@ -7,7 +7,7 @@ def line(katz_deli)
   else 
     katz_deli.each_with_index do |name|
     queue = []
-    queue.push "The line is currently: #{queue.length + 1}. #{name}" 
+    queue.push " #{queue.length + 1}. #{name}" 
 end
 queue
 end
