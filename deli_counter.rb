@@ -5,8 +5,8 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else 
-    katz_deli.each_with_index do |name|
     queue = []
+    katz_deli.each_with_index do |name|
     queue.push " #{queue.length + 1}. #{name}" 
 end
 queue
