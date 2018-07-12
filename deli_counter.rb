@@ -26,4 +26,5 @@ def now_serving(katz_deli)
     katz_deli.delete_at[0]
     puts "Currently serving #{katz_deli.first}."
 end
+puts now_serving
 end
