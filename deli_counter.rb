@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name|
     queue.push " #{queue.length + 1}. #{name}" 
 end
-queue
+puts queue
 end
 end
 
